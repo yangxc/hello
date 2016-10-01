@@ -70,13 +70,13 @@ deploy:
             cmd: /pipeline/source/hello
             port: "8080"
             tag: latest
-            repository: yangxc/hello
+            repository: yangxiaochen621/hello
             registry: https://registry.hub.docker.com
-        - cng/cf-deploy:
-            api: $API
-            user: $USER
-            password: $PASSWORD
-            org: $ORG
-            space: $SPACE
-            appname: wercker-step-yangxc-hello
-            docker_image: yangxc/hello
+        # - cng/cf-deploy:
+        #     api: $API
+        #     user: $USER
+        #     password: $PASSWORD
+        #     org: $ORG
+        #     space: $SPACE
+        #     appname: wercker-step-yangxc-hello
+        #     docker_image: yangxc/hello
