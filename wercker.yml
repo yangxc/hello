@@ -68,7 +68,7 @@ deploy:
             username: $DOCKER_USERNAME
             password: $DOCKER_PASSWORD
             cmd: /pipeline/source/hello
-            port: "8080"
+            ports: "8080"
             tag: latest
             repository: yangxiaochen621/hello
             registry: https://registry.hub.docker.com
